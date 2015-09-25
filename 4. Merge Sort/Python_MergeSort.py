@@ -1,5 +1,38 @@
-array = [20, 1, 5, 100, 8888, 50, 40, 2, 30]
 
+
+a = [20, 1, 5, 100, 8888, 50, 40, 2, 30]
+print (a)
+
+
+def m_sort(lists):
+  if(len(lists) < 2):
+    return lists
+  else:
+  
+  
+  
+  return lists
+  
+
+
+
+b = m_sort(a)
+print (b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+#===================
+'''
 def merge_sort(array):
     result = []
     if len(array) == 1:
@@ -28,4 +61,5 @@ def merge_array(a,b):
 
 merge_sort(array)
 merge_array
+'''
 

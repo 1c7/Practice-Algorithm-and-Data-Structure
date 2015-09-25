@@ -38,8 +38,15 @@ python3 7.InsertSort.py
 ```
 
 
+<br>
+<br>
+#### rm -rf * - 删除当前目录下所有东西
 
+rm - remove files or directories
 
+-f  force, even this is a bad idea, just delete it, don't prompt
+-r, -R, --recursive
+              remove directories and their contents recursively
 
 
 
