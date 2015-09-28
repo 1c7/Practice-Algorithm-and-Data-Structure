@@ -2,7 +2,7 @@
 
 
 
-http://code.he.net/  
+
 http://codility.com/  
 http://www.codewars.com/  
 
@@ -179,8 +179,12 @@ rm - remove files or directories
 
 
 
+<br/>
+<br/>
+#### 网址
 
-
+http://code.he.net/  
+这个太简单了, 入门用的  
 
 
 
