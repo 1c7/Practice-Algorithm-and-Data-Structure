@@ -1,9 +1,9 @@
 ## 练算法和数据结构
 
 
-http://code.he.net/
-http://codility.com/
-http://www.codewars.com/
+http://code.he.net/  
+http://codility.com/  
+http://www.codewars.com/  
 
 
 Leet Code
@@ -70,7 +70,7 @@ __第二件事__.学习什么时候用什么样的数据结构和算法.对于�
 
 
 <br/>
-下面的题目来自: http://www.guokr.com/post/444387/
+下面的题目来自: http://www.guokr.com/post/444387/  
 基础测试
 ~~~~~~~~~~
 
@@ -117,8 +117,8 @@ Google Code Jam
 
 
 
-<br>
-<br>
+<br/>
+<br/>
 ### 推荐书籍
 《 形形色色的科学-程序语言的奥妙：算法解读 》  
  
@@ -127,18 +127,18 @@ http://blog.2baxb.me/reading_list
 
 
 
-<br>
-<br>
+<br/>
+<br/>
 ### 其他参考
 wikipedia -- List of algorithms  
 https://en.wikipedia.org/wiki/List_of_algorithms  
 
 
 
-<br>
-<br>
+<br/>
+<br/>
 ---
-<br>
+<br/>
 #### 1. Ubuntu(14.04) 查看安装的 Python 版本
 ```
 python -V
@@ -147,8 +147,8 @@ python -V
 小写 v 会被无视, 直接进入 Python
 
 
-<br>
-<br>
+<br/>
+<br/>
 #### 安装最新的 Python 3.5
 https://www.python.org/downloads/
 
@@ -162,16 +162,16 @@ f
 
 
 
-<br>
-<br>
+<br/>
+<br/>
 #### 装了2个版本的 Python 时, 要用 Python3 可以:
 ```
 python3 7.InsertSort.py
 ```
 
 
-<br>
-<br>
+<br/>
+<br/>
 #### rm -rf * - 删除当前目录下所有东西
 
 rm - remove files or directories
