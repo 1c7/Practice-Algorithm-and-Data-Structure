@@ -3,22 +3,51 @@
 
 <br>
 ### 排序
+##### 序号随便的, 不是按什么规则排的
 |序号|名字|进度
 ----|------|----
-|1|[桶排序 - Bucket Sort](./1. Bucket Sort)| √ 
-|2|[冒泡排序 - Bubble Sort](./2. Bubble Sort)|√   
-|3|[选择排序 - Selection Sort](./3. Selection Sort)|  
-|4|[归并排序 - Merge Sort](./4. Merge Sort) | 
-|5|[快速排序 - Quick Sort](./5.InsertSort)|  
-|6|[插入排序 - Insertion Sort](./6.InsertSort)|  
+|1|[桶排序 - Bucket Sort(差)](./1. Bucket Sort)| √ 
+|2|[冒泡 - Bubble Sort(差)](./2. Bubble Sort)|√   
+|3|[选择 - Selection Sort](./3. Selection Sort)|  
+|4|[归并 - Merge Sort](./4. Merge Sort) | 
+|5|[快速 - Quick Sort](./5.InsertSort)|  
+|6|[插入 - Insertion Sort](./6.InsertSort)|  
+|7|[希尔 - Shell Sort](./6.InsertSort)|  
+|8|[堆 - Heap Sort](./6.InsertSort)|  
+|9|Cocktail Sort(差) also known as bidirectional bubble sort |  
+|10|梳 - Comb Sort - Comb sort improves on bubble sort.|  
+|11|Timsort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort|  
 
 
+
+3.4 Distribution sort
+3.4.1 Counting sort
+3.4.2 Bucket sort
+3.4.3 Radix sort
+
+
+
+Visualization and Comparison of Sorting Algorithms  
+https://www.youtube.com/watch?v=ZZuD6iUe3Pc  
+
+
+最好: Shell > Quick  > Merge > Heap    
+最差: Selection, Bubble Sort, Cocktail Sort  
+
+
+#### 最好的排序算法  
+
+http://cs.stackexchange.com/questions/3/why-is-quicksort-better-than-other-sorting-algorithms-in-practice
+http://www.cprogramming.com/tutorial/computersciencetheory/sortcomp.html
+http://betterexplained.com/articles/sorting-algorithms/
+https://www.quora.com/What-is-the-fastest-sorting-algorithm
 
 <br>
 ### 搜索
-1. 二分查找  
-2.   
-3.  
+
+|序号|名字|进度
+----|------|----
+|1|二分查找| 
 
 
 
