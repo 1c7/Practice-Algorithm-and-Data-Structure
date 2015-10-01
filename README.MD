@@ -8,7 +8,7 @@
 ----|------|----
 |1|[桶排序 - Bucket Sort(差)](./1. Bucket Sort)| √ 
 |2|[冒泡 - Bubble Sort(差)](./2. Bubble Sort)|√   
-|3|[选择 - Selection Sort](./3. Selection Sort)|  
+|3|[选择 - Selection Sort](./3. Selection Sort)|__now__  
 |4|[归并 - Merge Sort](./4. Merge Sort) | 
 |5|[快速 - Quick Sort](./5.InsertSort)|  
 |6|[插入 - Insertion Sort](./6.InsertSort)|  
@@ -55,6 +55,12 @@ https://www.quora.com/What-is-the-fastest-sorting-algorithm
 ### 树
 为什么需要树? 树有什么用? 实际应用在了哪些地方?   
 1. 
+
+|序号|名字|进度
+----|------|----
+|1|二叉搜索树 - Binary search tree| 
+|2|红黑树 - Red–black tree| 
+|3|B+树 - B+ tree| 
 
 
 <br>
