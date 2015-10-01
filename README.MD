@@ -6,10 +6,11 @@
 |序号|名字|进度
 ----|------|----
 |1|[桶排序 - Bucket Sort](./1. Bucket Sort)| √ 
-|2|[冒泡排序 - Bubble Sort]|   
-|3|[选择排序 - Selection Sort]()|  
-|4|[归并排序 - Merge Sort]() | 
-|5|[快速排序 - Quick Sort]()|  
+|2|[冒泡排序 - Bubble Sort](./2. Bubble Sort)|√   
+|3|[选择排序 - Selection Sort](./3. Selection Sort)|  
+|4|[归并排序 - Merge Sort](./4. Merge Sort) | 
+|5|[快速排序 - Quick Sort](./5.InsertSort)|  
+|6|[插入排序 - Insertion Sort](./6.InsertSort)|  
 
 
 
@@ -33,6 +34,10 @@
 
 
 
+
+
+<br>
+### 思路
 
 
 <br>
