@@ -3,9 +3,9 @@
 
 <br>
 ### 排序
-|序号|名字|进度|
---------
-|1. |[桶排序 - Bucket Sort](./1. Bucket Sort)| √ | 
+|序号|名字|进度
+----|------|----
+|1. |[桶排序 - Bucket Sort](./1. Bucket Sort)| √ 
 2. [冒泡排序 - Bubble Sort]   
 3. [选择排序 - Selection Sort]()  
 4. [归并排序 - Merge Sort]()  
