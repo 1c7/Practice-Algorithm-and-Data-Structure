@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-// 查下 stdlib 有啥函数
+// for exit() function
 
 
 int main(void){
@@ -15,7 +15,9 @@ int main(void){
   /* print some text */
   const char *text = "Write this to the file";
   fprintf(f, "Some text: %s\n", text);
-
+  // fprintf 输出到文件里
+  // 第一个参数是文件指针, 第二第三个是字符串和占位
+  
   /* print integers and floats */
   int i = 1;
   float py = 3.1415927;
@@ -29,7 +31,15 @@ int main(void){
 
   return 0;
 }
+/*
 
+  文件指针 = fopen(文件地址, 打开模式)
+  
+  
+  
+  
+
+*/
 
 
 
