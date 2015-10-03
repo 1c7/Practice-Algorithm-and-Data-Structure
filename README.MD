@@ -1,6 +1,11 @@
 ## 练算法和数据结构
 1个1个来  
 
+
+### 说明
+1. 代码里会放详细的注释解释整个思路
+2. 与代码同文件夹的 README.MD 会放一些好的视频,资料来源,重点讲解等等.
+
 <br>
 ### 排序
 ##### 序号随便的, 不是按什么规则排的
@@ -8,17 +13,17 @@
 ----|------|----
 |1|[桶排序 - Bucket Sort(差)](./1. Bucket Sort)| √ 
 |2|[冒泡 - Bubble Sort(差)](./2. Bubble Sort)|√   
-|3|[选择 - Selection Sort](./3. Selection Sort)|__now__  
+|3|[选择 - Selection Sort](./3. Selection Sort)|√  
 |4|[归并 - Merge Sort](./4. Merge Sort) | 
 |5|[快速 - Quick Sort](./5.InsertSort)|  
 |6|[插入 - Insertion Sort](./6.InsertSort)|  
 |7|[希尔 - Shell Sort](./6.InsertSort)|  
 |8|[堆 - Heap Sort](./6.InsertSort)|  
-|9|Cocktail Sort(差) also known as bidirectional bubble sort |  
+|9|Cocktail Sort(差) also known as bidirectional bubble sort |不实现了, 没意思  
 |10|梳 - Comb Sort - Comb sort improves on bubble sort.|  
 |11|Timsort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort|  
 
-
+排序的重点: 尽可能减少比较和交换的次数  
 
 3.4 Distribution sort
 3.4.1 Counting sort
@@ -48,6 +53,9 @@ https://www.quora.com/What-is-the-fastest-sorting-algorithm
 |序号|名字|进度
 ----|------|----
 |1|二分查找| 
+|2|深度优先算法 - Deep First Search - DFS| 
+|3|广度优先算法 - Breadth First Search - BFS| 
+
 
 
 
@@ -60,7 +68,7 @@ https://www.quora.com/What-is-the-fastest-sorting-algorithm
 ----|------|----
 |1|二叉搜索树 - Binary search tree| 
 |2|红黑树 - Red–black tree| 
-|3|B+树 - B+ tree| 
+|3|[B+树 - B+ tree](./Tree/B+ Tree)| 
 
 
 <br>
@@ -267,11 +275,42 @@ rm - remove files or directories
 
 <br/>
 <br/>
-#### 网址
+#### 总结
+1. 深度优先搜索是一直往子节点下跑, 没有子节点了再上去, 再看看上面那一个有没有没访问过的子节点.  
+2. 广度优先就是找邻居..  一层一层的找  
+3. 树和图的区别:   
+树: 树里的每个节点只有一条路线, 和其他节点相连  
+图: 图里的至少一个节点有1个以上的路线连接到其他节点  
+
+树的例子:  
+文件系统  
+族谱  
+比赛晋级图  
 
 
+二叉树 = 最多2个子节点, 一个左边一个右边. 允许只有左子节点或者只有右子节点, 并不是说除了叶节点之外其他节点都要有2个子节点才算  
 
+<br/>
+二叉树下面有两类: 满二叉树, 完全二叉树.
 
+<br/>
+满二叉树 = 全都有2个子节点, 深度一致  
+
+<br/>
+完全二叉树 = 全都有2个子节点, 深度不一致  
+
+<br/>
+堆是一种特殊的完全二叉树  
+当一颗完全二叉树, 上级节点都比子节点小的时候, 叫做__最小堆__  
+当一颗完全二叉树, 上级节点都比子节点大的时候, 叫做__最大堆__  
+
+<br/>
+堆有什么用?  
+想从一堆数字里面找出最小的, 数组要遍历, 而最小堆直接拿根节点就是了  
+假设现在要插入一个数字到堆里, 就根据大小, 从根节点开始, 向下比较, 找到合适的节点就插入成子节点就行了.
+
+插入堆可以用__向上调整__或者__向下调整__  
+向上调整和向下调整的区别是啥?  
 
 
 

@@ -1,22 +1,20 @@
+# coding=utf-8
+
+import sys
+# for sys.exit()
 
 
-a = [20, 1, 5, 100, 8888, 50, 40, 2, 30]
+
+
+
+
+a = [20, 1, 5, 100, 8888, 2, 30]
 print (a)
 
 
-def m_sort(lists):
-  if(len(lists) < 2):
-    return lists
-  else:
-  
-  
-  
-  return lists
-  
 
 
-
-b = m_sort(a)
+#b = m_sort(a)
 print (b)
 
 
