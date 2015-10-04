@@ -1,24 +1,28 @@
 ## 练算法和数据结构
-1个1个来  
+文件夹和文件的命名方式都是为了方便自动补全  
+
+数据结构是存放数据的方式,   
+针对不同的问题, 用合适的数据结构搭配算法可以更快的得到答案. 
 
 
 ### 说明
 1. 代码里会放详细的注释解释整个思路
 2. 与代码同文件夹的 README.MD 会放一些好的视频,资料来源,重点讲解等等.
 
+
 <br>
 ### 排序
 ##### 序号随便的, 不是按什么规则排的
 |序号|名字|进度
 ----|------|----
-|1|[桶排序 - Bucket Sort(差)](./1. Bucket Sort)| √ 
-|2|[冒泡 - Bubble Sort(差)](./2. Bubble Sort)|√   
-|3|[选择 - Selection Sort](./3. Selection Sort)|√  
-|4|[归并 - Merge Sort](./4. Merge Sort) | 
-|5|[快速 - Quick Sort](./5.InsertSort)|  
-|6|[插入 - Insertion Sort](./6.InsertSort)|  
-|7|[希尔 - Shell Sort](./6.InsertSort)|  
-|8|[堆 - Heap Sort](./6.InsertSort)|  
+|1|[桶排序 - Bucket Sort(差)](./Sort/1. Bucket Sort)| √ 
+|2|[冒泡 - Bubble Sort(差)](./Sort/2. Bubble Sort)|√   
+|3|[选择 - Selection Sort](./Sort/3. Selection Sort)|√  
+|4|[归并 - Merge Sort](./Sort/4. Merge Sort) | 
+|5|[快速 - Quick Sort](./Sort/5.InsertSort)|  
+|6|[插入 - Insertion Sort](./Sort/6.InsertSort)|  
+|7|[希尔 - Shell Sort]|  
+|8|[堆 - Heap Sort]|  
 |9|Cocktail Sort(差) also known as bidirectional bubble sort |不实现了, 没意思  
 |10|梳 - Comb Sort - Comb sort improves on bubble sort.|  
 |11|Timsort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort|  
@@ -27,7 +31,6 @@
 
 3.4 Distribution sort
 3.4.1 Counting sort
-3.4.2 Bucket sort
 3.4.3 Radix sort
 
 
@@ -311,6 +314,17 @@ rm - remove files or directories
 
 插入堆可以用__向上调整__或者__向下调整__  
 向上调整和向下调整的区别是啥?  
+
+
+
+
+<br/>
+编译 C++ 程序要用 g++, 不能用 gcc  
+```C++
+g++ 2-Stack.cpp -o 2s
+```
+
+
 
 
 
