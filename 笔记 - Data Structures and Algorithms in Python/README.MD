@@ -1,10 +1,12 @@
 ### Data Structures and Algorithms in Python
-
-书一共15章节
-
+
 
 
-292页有链表和数组的比对
+
+
+
+
+<br/>
 
 
 
@@ -19,13 +21,18 @@
 11 Search Tree
 120  sorting and sele
 
+---
+
+python 中 self 不是关键字
+self 指的是类实例对象本身
 
 
+---
 
+你可以实现 class 的 next 方法把对象做成可迭代的，
+也就是可以用 for in 这种的
 
-
-
-
+---
 
 
 网络中鉴别身份的方式：

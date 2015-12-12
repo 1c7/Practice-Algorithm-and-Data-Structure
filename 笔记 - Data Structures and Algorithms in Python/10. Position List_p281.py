@@ -2,12 +2,33 @@
 
 '''
 
+之前的栈，队列，双向队列，都只能操作最开始或者最后的元素
+现在我们希望有种抽象结构，我们可以插入删除获取任意位置的元素
 
-Data Structures and Algorithms in Python
 
-p264
+list L, position p, element e
 
-队列：单链表实现
+L.first()
+L.last()
+
+L.before(p)   之前那个位置
+L.after(p)     之后那个位置
+L.is_empty()
+len(L)
+iter(L)  - 没懂这个
+
+L.add_first(e)
+L.add_last(e)
+L.add_before(p, e)
+L.add_after(p, e)
+L.replace(p, e)
+L.delete(p)
+
+
+Doubly Linked List Implementiation
+
+
+-----
 
 
 
@@ -17,87 +38,6 @@ p264
 
 
     
-class LinkedQueue:
-
-    # --------------- 内嵌的节点 class -------------
-    class _Node:
-        __slots__ = '_element', '_next'
-        
-        def __init__(self, element, next):
-            self._element = element
-            self._next = next
-        
-    # ---------------- stack method -------------
-    def __init__(self):
-        # Create an empty queue
-        self._head = None
-        self._tail = None
-        self._size = 0
-
-    def __len__(self):
-        return self._size
-
-    def is_empty(self):
-        return self._size == 0
-
-
-    def first(self):
-        if self.is_empty():
-            raise Empty('Stack is empty')
-        return self._head._element
-
-    def dequeue(self):
-         if self.is_empty():
-            raise Empty('Stack is empty')
-         answer = self._head._element
-         self._head = self._head._next
-         self._size -= 1
-         if self.is_empty():
-             self._tail = None
-         return answer
-
-    def enqueue(self, e):
-        """ Add an element to the back of queue"""
-        newest = self._Node(e, None)
-        
-        if self.is_empty():  # 如果队列是空的
-
-            self._head = newest   # 那么这个新节点就是 head 了
-
-        else:  # 如果不是空的
-            
-            self._tail._next = newest  # 插入到尾巴节点的后面
-
-    
-        self._tail = newest
-        self._size += 1
-
-
-    
-
-
-
-
-S = LinkedStack()
-S.push('c')
-S.push('s')
-
-print(S.pop())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
