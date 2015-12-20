@@ -383,6 +383,86 @@ Preorder and Postorder traversal
 
 
 
+#p333
+def preorder(self):
+    if not self.is_empty():
+        for p in self._subtree._preorder(self.root()):
+            yield p
+
+def _subtree_preorder(self, p):
+    yield p
+    for c in self.children(p):
+        for other in self._subtree_preorder(c):
+            yield other
+    
+#p335
+def postorder(self):
+    if not self.is_empty():
+        for p in self._subtree_postorder(self.root()):
+            yield p
+
+def _subtree_postorder(self, p):
+    for c in self.children(p):
+        for other in self._subtree_postorder(c):
+            yield other
+    yield p
+
+
+
+
+
+#
+#
+# Breadth-First Traversal
+#
+def breathfirst(self):
+    if not self.is_empty():
+        fringe = LinkedQueue()
+        # fringe 边缘，刘海
+        fringe.enqueue(self.root())
+        while not fringe.is_empty():
+            p = fringe.dequeue()
+            yield p
+            for c in self.children(p):
+                fringe.enqueue(c)
+# 这个应该放到 body of the Tree class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
