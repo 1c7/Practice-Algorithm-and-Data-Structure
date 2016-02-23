@@ -129,6 +129,15 @@ python3 xx.py
 ### .java
 看版本: ``` java -version ```
 
+```java
+javac xxx.java
+```
+跑完之后应该会有一个 xxx.class
+
+然后运行:
+```java 
+java xxx
+```
 
 
 
