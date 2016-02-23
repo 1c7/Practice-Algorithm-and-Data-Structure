@@ -7,8 +7,6 @@ void main(void){
    int j;
    int smallest = a[0];
    
-   
-   
   printf("--Start Selection Bubble Sort\n");
   
   // ==== output unsorted array ====
