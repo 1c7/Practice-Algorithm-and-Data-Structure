@@ -1,5 +1,3 @@
-## 练算法和数据结构
-
 <br>
 ### 排序
 |序号|名字|进度
@@ -12,10 +10,6 @@
 |6|[插入 - Insertion Sort](./Sort/6.InsertSort)|  
 |7|[希尔 - Shell Sort]|  
 |8|[堆 - Heap Sort]|  
-|9|Cocktail Sort(差) also known as bidirectional bubble sort |不实现了, 没意思  
-|10|梳 - Comb Sort - Comb sort improves on bubble sort.|  
-|11|Timsort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort|  
-
 
 <br>
 ### 搜索
