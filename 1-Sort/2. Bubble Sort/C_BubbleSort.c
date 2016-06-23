@@ -135,10 +135,6 @@ void main(){
       
     既然大家都说冒泡排序的时间复杂度 O(n^2)
     n的平方
-    
-
-      
-    
 */
 
   int seq, number, result = 0;
