@@ -1,3 +1,4 @@
+### Ubuntu 下以下管用
 <br/>
 ### .cpp 
 编译 C++ 程序要用 g++, 不能用 gcc  
@@ -8,7 +9,7 @@ g++ 2-Stack.cpp -o 2s
 <br/>
 ### .c
 ```gcc hello.c -o a```
--o 代表 output
+-o 代表 output  
 运行: ``` ./a ```
 
 <br/>
@@ -20,8 +21,8 @@ python3 xx.py
 
 <br/>
 ### .java
-看版本: ``` java -version ```
-
+看版本: ``` java -version ```  
+编译:  
 ```java
 javac xxx.java
 ```
@@ -31,5 +32,19 @@ javac xxx.java
 ```java 
 java xxx
 ```
+不用写成 xxx.class, 直接写 xxx 就行了
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
