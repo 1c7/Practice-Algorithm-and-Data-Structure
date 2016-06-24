@@ -6,7 +6,7 @@
 ----|------|----
 |1|[桶排序 - Bucket Sort(差)](./1-Sort/1. Bucket Sort)| √ 
 |2|[冒泡 - Bubble Sort(差)](./1-Sort/2. Bubble Sort)| √ 
-|3|[选择 - Selection Sort](./1-Sort/3. Selection Sort)|√ 
+|3|[选择 - Selection Sort(差)](./1-Sort/3. Selection Sort)|√ 
 |4|[归并 - Merge Sort](./1-Sort/4. Merge Sort) | x 
 |5|[快速 - Quick Sort](./1-Sort/5.InsertSort)|  x 
 |6|[插入 - Insertion Sort](./1-Sort/6.InsertSort)| x
