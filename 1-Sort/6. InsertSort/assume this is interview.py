@@ -8,7 +8,7 @@ print(a)
 
 
 for i in range(1, len(a)): 
-  for j in range(i-1, -1, -1): 
+  for j in range(i-1, -1, -1):  # param: start, end, gap. so this is backword
     if a[i] < a[j]: 
       a[j], a[i] = a[i], a[j] 
       i -= 1 
