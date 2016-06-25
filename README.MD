@@ -10,9 +10,9 @@
 |2|[冒泡 - Bubble Sort(差)](./1-Sort/2. Bubble Sort)| √ 
 |3|[选择 - Selection Sort(差)](./1-Sort/3. Selection Sort)| √ 
 |6|[插入 - Insertion Sort](./1-Sort/6. InsertSort)|  √
-|7|[希尔 - Shell Sort](./1-Sort/7. ShellSort)|  √
-|4|[归并 - Merge Sort](./1-Sort/4. Merge Sort) | √
-|5|[快速 - Quick Sort](./1-Sort/5. Quick Sort)|  x 
+|7|[希尔 - Shell Sort - different insertion sort](./1-Sort/7. ShellSort)|  √
+|4|[归并 - Merge Sort - divide & conquer](./1-Sort/4. Merge Sort) | √
+|5|[快速 - Quick Sort - divide & conquer](./1-Sort/5. Quick Sort)|  √ 
 |8|[堆 - Heap Sort](./1-Sort/8. Heap Sort)|  x
 
 
