@@ -1,20 +1,9 @@
-# puts 'asdasdasdasdasd'
-# puts 最后会自动换行
-
-=begin
-  多行注释
-=end
-
 '''
   插入排序:
 '''
 a = [9, 7, 3, 2, 6, 88]
 p a
-# http://www.cnblogs.com/yjmyzz/archive/2010/02/22/1671130.html
 
-=begin
-
-=end
 
 def insert_sort(lists)
 
@@ -37,15 +26,7 @@ def insert_sort(lists)
 end
 
 
-def hello
-  puts 'hello'
-end
-
-#hello()
-
-
 b = insert_sort(a)
 p a
-
 
 
