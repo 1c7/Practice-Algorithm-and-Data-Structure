@@ -3,7 +3,7 @@
 每次都看 assume this is interview.py 这个文件就好了  
 
 <br>
-### 排序(1~2天可以理解完这些)
+### 排序 (1~3天可以理解完这些)
 |序号|名字|进度
 ----|------|----
 |1|[桶排序 - Bucket Sort(差)](./1-Sort/1. Bucket Sort)| √ 
@@ -13,7 +13,8 @@
 |7|[希尔 - Shell Sort - different insertion sort](./1-Sort/7. ShellSort)|  √
 |4|[归并 - Merge Sort - divide & conquer](./1-Sort/4. Merge Sort) | √
 |5|[快速 - Quick Sort - divide & conquer](./1-Sort/5. Quick Sort)|  √ 
-|8|[堆 - Heap Sort](./1-Sort/8. Heap Sort)|  x
+|8|[堆 - Heap Sort](./1-Sort/8. Heap Sort)|   √ 
+
 
 
 <br>
