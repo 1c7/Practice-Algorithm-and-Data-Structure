@@ -14,7 +14,7 @@
 |4|[归并 - Merge Sort - divide & conquer](./1-Sort/4. Merge Sort) | √
 |5|[快速 - Quick Sort - divide & conquer](./1-Sort/5. Quick Sort)|  √ 
 |8|[堆 - Heap Sort](./1-Sort/8. Heap Sort)|   √ 
-
+|9|[基数排序 - Radix Sort](./1-Sort/9. Radix Sort)|   √ 
 
 
 <br>
