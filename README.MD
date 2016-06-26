@@ -22,7 +22,7 @@
 
 |序号|名字|进度
 ----|------|----
-|1|二分查找| 
+|1|二分查找|   √ 
 |2|深度优先算法 - Deep First Search - DFS| 
 |3|广度优先算法 - Breadth First Search - BFS| 
 
