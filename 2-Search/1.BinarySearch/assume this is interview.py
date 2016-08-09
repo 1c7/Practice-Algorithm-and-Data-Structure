@@ -1,6 +1,6 @@
 #
-# here is an array [1, 4, 12, 45, 66, 99, 120, 444]
-# write a binary search find number 1
+# Here is an array [1, 4, 12, 45, 66, 99, 120, 444]
+# Write a Binary Search
 #
 a = [1, 4, 12, 45, 66, 99, 120, 444]
 print(a)
@@ -31,6 +31,9 @@ def binarySearch(list, target):
   # or first and last cross each other one position
 
   return index
+
+
+
 
 target_index = binarySearch(a, 444)
 print('index is: ', target_index)

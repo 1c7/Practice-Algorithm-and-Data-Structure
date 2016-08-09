@@ -22,11 +22,9 @@
 
 |序号|名字|进度
 ----|------|----
-|1|二分查找|   √ 
-|2|深度优先算法 - Deep First Search - DFS| 
-|3|广度优先算法 - Breadth First Search - BFS| 
-
-
+|1|[二分查找](./2-Search/1.BinarySearch)|   √ 
+|2|[广度优先算法 - Breadth First Search - BFS](./Grokking Algorithms An illustrated guide for programmers and other curious people/3. breadth-first search.py)|   √ 
+|3|深度优先算法 - Deep First Search - DFS|
 
 <br>
 ### 树  
@@ -34,11 +32,12 @@
 ----|------|----
 |1|二叉搜索树 - Binary search tree| 
 |2|红黑树 - Red–black tree| 
-|3|[B+树 - B+ tree](./Tree/B+ Tree)| 
+|3|B+树 - B+ tree| 
 
 
 <br>
 ### 图
+[什么是图，图能做啥](./What is Graph.md)
 
 <br/>
 <br/>
