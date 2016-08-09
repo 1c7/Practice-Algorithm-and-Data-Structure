@@ -6,9 +6,9 @@
 ### 排序 (1~3天可以理解完这些)
 |序号|名字|进度|一句话解释|
 ----|------|----|------
-|1|[桶排序 - Bucket Sort(差)](./1-Sort/1. Bucket Sort)| √ 
-|2|[冒泡 - Bubble Sort(差)](./1-Sort/2. Bubble Sort)| √ 
-|3|[选择 - Selection Sort(差)](./1-Sort/3. Selection Sort)| √ 
+|1|[桶排序 - Bucket Sort(差)](./1-Sort/1. Bucket Sort)| √ | 拿 array 做, index 当做是数字, value 是这个数字出现的次数, 很差的一种排序方法, 浪费空间以及无法排序小数.
+|2|[冒泡 - Bubble Sort(差)](./1-Sort/2. Bubble Sort)| √ | 每次循环跑遍所有元素, 2个2个比较, 每次循环完了之后最大的会排到后面去.
+|3|[选择 - Selection Sort(差)](./1-Sort/3. Selection Sort)| √ | 每次循环找到最小的, 然后和第一个交换位置, 重复这个过程
 |6|[插入 - Insertion Sort](./1-Sort/6. InsertSort)|  √
 |7|[希尔 - Shell Sort - different insertion sort](./1-Sort/7. ShellSort)|  √
 |4|[归并 - Merge Sort - divide & conquer](./1-Sort/4. Merge Sort) | √
@@ -46,7 +46,7 @@
 
 
 
-
+一句话解释是我自己的总结, 光看那一句话的话, 如果没理解算法的话非常正常  
 
 
 
