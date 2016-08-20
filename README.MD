@@ -56,6 +56,37 @@
 
 
 
+## Africa 2010, Qualification Round
+### Problem A. Store Credit
+
+### Problem B. Reverse Words
+
+### Problem C. T9 Spelling
+
+
+## Round 1A 2008
+### Problem A. Minimum Scalar Product
+
+### Problem B. Milkshakes
+
+
+### Problem C. Numbers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
